@@ -1,0 +1,31 @@
+page-committees {
+    #committee {
+        background-color: #f4efd0;
+    }
+    #committee h2 {
+        font-size: 2.25rem;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+    
+    #committee ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    #committee ul li span {
+        font-style: italic;
+        color: #0079c2;
+        font-weight: 900;
+        margin-right: 5px;
+    }
+    
+    #committee ul li svg {
+        margin-right: 10px;
+    }
+    
+    #committee ul li .pais {
+        margin-right: 10px;
+        font-weight: 400;
+    }
+}

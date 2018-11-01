@@ -1,0 +1,106 @@
+page-course {
+
+    #program {
+        background-color: #f4efd0;
+    }
+    
+    img {
+        border-radius: 50%;
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    
+    #program .horas {
+        border: 1px solid #0079c2;
+        display: inline-block;
+        padding: 5px 15px;
+    }
+    
+    #program .conferencia {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        border-bottom: 1px dashed #0079c2;
+    }
+    
+    #program .conferencia:first-child {
+        margin-top: 50px;
+    }
+    
+    #program .conferencia:last-child {
+        border: 0;
+        margin-bottom: 0;
+    }
+    
+    #program .conferencia .horas {
+        background-color: #0079c2;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 400;
+        display: inline-block;
+        font-size: 1rem;
+        margin-right: 25px;
+        padding: 1px 15px;
+        vertical-align: top;
+    }
+    
+    #program .conferencia .titulo {
+        display: inline-block;
+        width: 90%;
+    }
+    
+    #program .conferencia .titulo .room {
+        background: #0079c2;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 400;
+        padding: 10px;
+        margin: 50px 0 0 0;
+        max-width: 100%;
+    }
+    
+    #program .conferencia .titulo h2 {
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+    
+    #program .conferencia .titulo p {
+        font-size: .9rem;
+        margin: 5px 0 0 0;
+        max-width: 1280px;
+    }
+    
+    #program .conferencia .titulo span {
+        font-weight: 300;
+        font-style: italic;
+        color: #0079c2;
+    }
+    
+    #program .conferencia .titulo ul {
+        list-style-type: none;
+        padding-left: 15px;
+        padding-top: 15px;
+        width: 100%;
+    }
+    
+    #program .conferencia .titulo ul li {
+        margin: 10px 0 0 0;
+    }
+    
+    #program .conferencia .titulo ul li h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    #program .conferencia .titulo ul li p {
+        font-size: .9rem;
+        margin: 5px 0 0 0;
+    }
+    
+    #program .conferencia .titulo ul li span {
+        font-weight: 300;
+        font-style: italic;
+        color: #0079c2;
+    }
+}
